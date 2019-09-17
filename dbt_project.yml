@@ -36,7 +36,8 @@ models:
       il:
         materialized: table 
         base:
-            materialized: ephemeral           
+            materialized: table
+            #materialized: ephemeral           
         
 
 on-run-end:
