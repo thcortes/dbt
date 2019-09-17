@@ -1,3 +1,6 @@
+{{ config(alias={{ var('table_name') }}, schema='dev') }}
+
+
 SELECT
     A.cnpj_loja,
     A.id_linha,
