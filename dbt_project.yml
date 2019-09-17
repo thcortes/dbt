@@ -35,3 +35,25 @@ models:
       # Applies to all files under models/example/
       example:
           materialized: table 
+
+on-run-end:
+  - 'DROP TABLE IF EXISTS dev.temp_base_sellout2'
+  - 'DROP TABLE IF EXISTS dev.temp_base_sellout_linha'
+  - 'DROP TABLE IF EXISTS dev.temp_base_sellout_similar'
+  - 'DROP TABLE IF EXISTS dev.temp_categoria'
+  - 'DROP TABLE IF EXISTS dev.temp_cont_mediana'
+  - 'DROP TABLE IF EXISTS dev.temp_cont_mediana_linha'
+  - 'DROP TABLE IF EXISTS dev.temp_cont_mediana_similar'
+  - 'DROP TABLE IF EXISTS dev.temp_mediana'
+  - 'DROP TABLE IF EXISTS dev.temp_mediana_linha'
+  - 'DROP TABLE IF EXISTS dev.temp_mediana_loja_linha'
+  - 'DROP TABLE IF EXISTS dev.temp_mediana_loja_similar'
+  - 'DROP TABLE IF EXISTS dev.temp_mediana_loja_sku'
+  - 'DROP TABLE IF EXISTS dev.temp_mediana_similar'
+  - 'DROP TABLE IF EXISTS dev.temp_moda'
+  - 'DROP TABLE IF EXISTS dev.temp_moda_linha'
+  - 'DROP TABLE IF EXISTS dev.temp_moda_similar'
+  - 'DROP TABLE IF EXISTS dev.temp_moda_sku'
+  - 'DROP TABLE IF EXISTS dev.temp_segmentos'
+  - 'DROP TABLE IF EXISTS dev.temp_subcat'
+  - 'DROP TABLE IF EXISTS dev.temp_venda_media_diaria_u30d'
