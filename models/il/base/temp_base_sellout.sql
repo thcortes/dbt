@@ -39,4 +39,4 @@ GROUP BY
     cps.categoria,
     cps.subcategoria,
     vpld."data",
-    vpld.data_hora_ingestao_dw;
+    vpld.data_hora_ingestao_dw
