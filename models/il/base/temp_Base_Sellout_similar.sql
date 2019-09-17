@@ -8,7 +8,7 @@ SELECT
     ((A.fat_item) /(A.Qtd_item)) :: numeric(18, 2) AS Preco,
     RANK() OVER (PARTITION BY A.id_similar, A.cnpj_loja ORDER BY A.sku, Preco, A."Data") AS Ordem
 FROM
-    dev.temp_base_sellout A
+    {{ref('temp_base_sellout')}} A
 WHERE
     TRUE
     AND A.id_similar is not null 

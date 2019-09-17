@@ -14,7 +14,7 @@ SELECT
         A.preco_medio AS preco_medio_Loja_sku,
 		A.Preco_minimo	AS preco_minimo_Loja_sku
     FROM
-        dev.TEMP_MEDIANA A
+        {{ref('TEMP_MEDIANA')}} A
     GROUP BY
         A.cnpj_loja,
         A.Sku,
