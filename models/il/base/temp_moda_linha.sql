@@ -5,7 +5,8 @@ SELECT
     SUM(Qtd_item),
     RANK() OVER (PARTITION BY cnpj_loja, id_linha ORDER BY SUM(Qtd_item) DESC,(fat_item/Qtd_item) :: numeric(18, 2) DESC ) AS Ordem_moda
 FROM
-   {{ref('temp_base_sellout_linha')}}
+   --{{ref('temp_base_sellout_linha')}}
+   temp_base_sellout_linha
 WHERE
     TRUE
 GROUP BY
