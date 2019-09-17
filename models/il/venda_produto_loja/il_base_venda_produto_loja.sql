@@ -1,4 +1,4 @@
-{{ config(alias={{ var('table_name') }}, schema='dev') }}
+{{ config(alias={{var('table_name')}}, schema='dev') }}
 
 
 SELECT
