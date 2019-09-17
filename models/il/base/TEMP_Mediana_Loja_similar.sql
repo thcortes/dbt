@@ -9,7 +9,7 @@ SELECT
         A.preco_medio AS preco_medio_loja_similar,
 		A.Preco_minimo	AS preco_minimo_Loja_similar
     FROM
-        {{ref('TEMP_MEDIANA_similar')}} A
+        {{ref('temp_mediana_similar')}} A
     GROUP BY
         A.cnpj_loja,
         A.id_similar,
