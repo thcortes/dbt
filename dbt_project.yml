@@ -34,7 +34,10 @@ models:
   yandeh:
       # Applies to all files under models/example/
       il:
-          materialized: table 
+        materialized: table 
+        base:
+            materialized: ephemeral           
+        
 
 on-run-end:
   - 'DROP TABLE IF EXISTS public.temp_base_sellout2'
