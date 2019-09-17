@@ -33,7 +33,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   yandeh:
       # Applies to all files under models/example/
-      example:
+      il:
           materialized: table 
 
 on-run-end:
