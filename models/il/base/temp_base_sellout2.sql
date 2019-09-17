@@ -1,5 +1,3 @@
-{{ config(materialized='table') }}
-
 SELECT
     A.cnpj_loja,
     A.Sku,
