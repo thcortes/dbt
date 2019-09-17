@@ -10,4 +10,4 @@
 select name,count(*) from recomendacao_app."produtos"
 group by name
 order by 2 desc
-limit 10;
+limit 10
