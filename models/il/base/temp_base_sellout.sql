@@ -1,5 +1,3 @@
-{{ config(materialized='table') }}
-
 SELECT
     vpld.cnpj_loja,
     vpld.sku_isnumeric as sku,
