@@ -55,5 +55,5 @@ FROM
     AND A.categoria = F.categoria
     LEFT JOIN {{ref('temp_segmentos')}} G ON A.Cnpj_loja = G.Cnpj_loja
     AND A.segmentos = G.segmentos
-    LEFT JOIN {{ref('temp_Moda')}} H ON A.Cnpj_loja = H.Cnpj_loja
+    LEFT JOIN {{ref('temp_moda')}} H ON A.Cnpj_loja = H.Cnpj_loja
     and A.sku = H.sku
