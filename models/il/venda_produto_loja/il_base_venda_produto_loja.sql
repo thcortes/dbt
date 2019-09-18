@@ -1,5 +1,3 @@
---{{ config(alias="{{var('table_name')}}-table", schema="{{var('table_name')}}") }}
-
 
 SELECT
     A.cnpj_loja,
