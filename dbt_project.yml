@@ -64,7 +64,7 @@ on-run-end:
 
 
 seeds:
-  your_package_name:
+  yandeh:
     enabled: true
     schema: public
     # This configures data/country_codes.csv
