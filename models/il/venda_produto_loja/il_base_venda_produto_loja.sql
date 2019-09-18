@@ -1,4 +1,4 @@
-{{ config(alias={{var('table_name')}}, schema='dev') }}
+{{ config(alias='nEWtABLE', schema='dev') }}
 
 
 SELECT
@@ -60,3 +60,5 @@ FROM
     AND A.segmentos = G.segmentos
     LEFT JOIN {{ref('temp_moda')}} H ON A.Cnpj_loja = H.Cnpj_loja
     and A.sku = H.sku
+WHERE 
+    A.sku NOT IN ({{ var('table_name') }})
