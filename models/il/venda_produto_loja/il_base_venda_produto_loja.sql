@@ -1,4 +1,6 @@
 
+
+
 SELECT
     A.cnpj_loja,
     A.id_linha,

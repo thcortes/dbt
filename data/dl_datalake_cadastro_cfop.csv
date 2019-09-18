@@ -1,183 +1,183 @@
 numero,tipo,descricao
-'6904','OUTROS','Remessa para venda fora do estabelecimento'
-'5949','OUTROS','Outra saída de mercadoria ou prestação de serviço não especificado'
-'1102','COMPRA','Compra p/ comercialização'
-'5929','ACOMPANHAMENTO','Lançamento efetuado em decorrência de emissão de documento fiscal relativo a operação ou prestação também registrada em equipamento Emissor de Cupom Fiscal - ECF'
-'5202','DEVOLUÇÃO','Devolução de compra p/ comercialização'
-'5209','DEVOLUÇÃO','Devolução de mercadoria recebida em transferência p/ comercialização'
-'5910','BONIFICAÇÃO','Remessa em bonificação, doação ou brinde'
-'6910','BONIFICAÇÃO','Remessa em bonificação, doação ou brinde'
-'1910','BONIFICAÇÃO','Entrada de bonificação, doação ou brinde'
-'5152','TRANSFERÊNCIA','Transferência de mercadoria adquirida ou recebida de terceiros'
-'5409','TRANSFERÊNCIA','Transferência de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita a ST'
-'5503','DEVOLUÇÃO','Devolução de mercadoria recebida com fim específico de exportação'
-'2411','DEVOLUÇÃO','Devolução de venda de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita a ST'
-'5605','TRANSFERÊNCIA','Transferência de saldo devedor do ICMS de outro estabelecimento da mesma empresa  '
-'5117','VENDA','Venda de mercadoria adquirida ou recebida de terceiros, originada de encomenda p/ entrega futura'
-'6411','DEVOLUÇÃO','Devolução de compra p/ comercialização em operação com mercadoria sujeita a ST'
-'5401','VENDA','Venda de produção do estabelecimento quando o produto esteja sujeito a ST'
-'1949','VENDA','Outra entrada de mercadoria ou prestação de serviço não especificada'
-'5120','VENDA','Venda de mercadoria adquirida ou recebida de terceiros entregue ao destinatário pelo vendedor remetente, em venda à ordem'
-'6101','VENDA','Venda de produção do estabelecimento'
-'5917','VENDA','Remessa de mercadoria em consignação mercantil ou industrial'
-'5551','VENDA','Venda de bem do ativo imobilizado'
-'5102','VENDA','Venda de mercadoria adquirida ou recebida de terceiros'
-'6404','VENDA','Venda de mercadoria sujeita a ST, cujo imposto já tenha sido retido anteriormente'
-'5505','VENDA','Remessa de mercadoria, adquirida ou recebida de terceiros, p/ formação de lote de exportação.'
-'6920','VENDA','Remessa de vasilhame ou sacaria'
-'5602','TRANSFERÊNCIA','Transferência de saldo credor do ICMS, p/ outro estabelecimento da mesma empresa, destinado à compensação de saldo devedor do ICMS'
-'5405','VENDA','Venda de mercadoria, adquirida ou recebida de terceiros, sujeita a ST, na condição de contribuinte-substituído'
-'6949','VENDA','Outra saída de mercadoria ou prestação de serviço não especificado'
-'5655','VENDA','Venda de combustível ou lubrificante, adquiridos ou recebidos de terceiros, destinados à comercialização'
-'5918','DEVOLUÇÃO','Devolução de mercadoria recebida em consignação mercantil ou industrial'
-'6108','VENDA','Venda de mercadoria adquirida ou recebida de terceiros, destinada a não contribuinte'
-'2403','VENDA','Compra p/ comercialização em operação com mercadoria sujeita a ST'
-'5909','DEVOLUÇÃO','Retorno de bem recebido por conta de contrato de comodato'
-'5656','VENDA','Venda de combustível ou lubrificante, adquiridos ou recebidos de terceiros, destinados a consumidor ou usuário final'
-'6202','DEVOLUÇÃO','Devolução de compra p/ comercialização'
-'6929','VENDA','Lançamento efetuado em decorrência de emissão de documento fiscal relativo a operação ou prestação também registrada em equipamento Emissor de Cupom Fiscal - ECF'
-'6919','DEVOLUÇÃO','Devolução simbólica de mercadoria vendida ou utilizada em processo industrial, recebida anteriormente em consignação mercantil ou industrial'
-'5101','VENDA','Venda de produção do estabelecimento'
-'5913','DEVOLUÇÃO','Retorno de mercadoria ou bem recebido p/ demonstração'
-'5920','VENDA','Remessa de vasilhame ou sacaria'
-'6918','DEVOLUÇÃO','Devolução de mercadoria recebida em consignação mercantil ou industrial'
-'1411','DEVOLUÇÃO','Devolução de venda de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita a ST'
-'6603','OUTROS','Ressarcimento de ICMS retido por substituição tributária'
-'7102','VENDA','Venda de mercadoria adquirida ou recebida de terceiros'
-'5661','DEVOLUÇÃO','Devolução de compra de combustível ou lubrificante adquiridos p/ comercialização'
-'1406','VENDA','Compra de bem p/ o ativo imobilizado cuja mercadoria está sujeita a ST'
-'2202','DEVOLUÇÃO','Devolução de venda de mercadoria adquirida ou recebida de terceiros'
-'1909','DEVOLUÇÃO','Retorno de bem remetido por conta de contrato de comodato'
-'1551','VENDA','Compra de bem p/ o ativo imobilizado'
-'5104','VENDA','Venda de mercadoria adquirida ou recebida de terceiros, efetuada fora do estabelecimento'
-'5105','VENDA','Venda de produção do estabelecimento que não deva por ele transitar'
-'6401','VENDA','Venda de produção do estabelecimento quando o produto sujeito a ST'
-'1403','VENDA','Compra p/ comercialização em operação com mercadoria sujeita a ST'
-'5652','VENDA','Venda de combustível ou lubrificante, de produção do estabelecimento, destinados à comercialização'
-'5103','VENDA','Venda de produção do estabelecimento efetuada fora do estabelecimento'
-'5552','TRANSFERÊNCIA','Transferência de bem do ativo imobilizado'
-'7501','VENDA','Exportação de mercadorias recebidas com fim específico de exportação'
-'5911','BONIFICAÇÃO','Remessa de amostra grátis'
-'2102','VENDA','Compra p/ comercialização'
-'5402','VENDA','Venda de produção do estabelecimento de produto sujeito a ST, em operação entre contribuintes substitutos do mesmo produto'
-'5908','DEVOLUÇÃO','Remessa de bem por conta de contrato de comodato'
-'5919','DEVOLUÇÃO','Devolução simbólica de mercadoria vendida ou utilizada em processo industrial, recebida anteriormente em consignação mercantil ou industrial'
-'5504','VENDA','Remessa de mercadoria p/ formação de lote de exportação, de produto industrializado ou produzido pelo próprio estabelecimento.'
-'5927','PERDA','Lançamento efetuado a título de baixa de estoque decorrente de perda, roubo ou deterioração'
-'6152','TRANSFERÊNCIA','Transferência de mercadoria adquirida ou recebida de terceiros'
-'5411','DEVOLUÇÃO','Devolução de compra p/ comercialização em operação com mercadoria sujeita a ST'
-'5922','VENDA','Lançamento efetuado a título de simples faturamento decorrente de venda p/ entrega futura'
-'5905','VENDA','Remessa p/ depósito fechado ou armazém geral'
-'5556','DEVOLUÇÃO','Devolução de compra de material de uso ou consumo'
-'5502','VENDA','Remessa de mercadoria adquirida ou recebida de terceiros, com fim específico de exportação'
-'6915','DEVOLUÇÃO','Remessa de mercadoria ou bem p/ conserto ou reparo'
-'5915','DEVOLUÇÃO','Remessa de mercadoria ou bem p/ conserto ou reparo'
-'5115','VENDA','Venda de mercadoria adquirida ou recebida de terceiros, recebida anteriormente em consignação mercantil'
-'5557','TRANSFERÊNCIA','Transferência de material de uso ou consumo'
-'6403','VENDA','Venda de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita a ST, na condição de contribuinte substituto'
-'5403','VENDA','Venda de mercadoria, adquirida ou recebida de terceiros, sujeita a ST, na condição de contribuinte-substituto'
-'1409','TRANSFERÊNCIA','Transferência p/ comercialização em operação com mercadoria sujeita a ST'
-'6102','VENDA','Venda de mercadoria adquirida ou recebida de terceiros'
-'1202','DEVOLUÇÃO','Devolução de venda de mercadoria adquirida ou recebida de terceiros'
-'5450','VENDA','Sistemas de integração'
-'5100','VENDA','Vendas de produção própria ou de terceiros'
-'5150','TRANSFERÊNCIA','Transferências de produção própria ou de terceiros'
-'5151','TRANSFERÊNCIA','Transferência de produção do estabelecimento'
-'1101','VENDA','Compra p/ industrialização ou produção rural'
-'1201','DEVOLUÇÃO','Devolução de venda de produção do estabelecimento '
-'1410','DEVOLUÇÃO','Devolução de venda de mercadoria, de produção do estabelecimento, sujeita a ST'
-'1414','DEVOLUÇÃO','Retorno de mercadoria de produção do estabelecimento, remetida p/ venda fora do estabelecimento, sujeita a ST'
-'1415','DEVOLUÇÃO','Retorno de mercadoria adquirida ou recebida de terceiros, remetida p/ venda fora do estabelecimento em operação com mercadoria sujeita a ST'
-'1554','DEVOLUÇÃO','Retorno de bem do ativo imobilizado remetido p/ uso fora do estabelecimento'
-'1652','VENDA','Compra de combustível ou lubrificante p/ comercialização'
-'1661','DEVOLUÇÃO','Devolução de venda de combustível ou lubrificante destinados à comercialização'
-'1662','DEVOLUÇÃO','Devolução de venda de combustível ou lubrificante destinados a consumidor ou usuário final'
-'1901','VENDA','Entrada p/ industrialização por encomenda'
-'1904','DEVOLUÇÃO','Retorno de remessa p/ venda fora do estabelecimento'
-'1908','DEVOLUÇÃO','Entrada de bem por conta de contrato de comodato'
-'1915','DEVOLUÇÃO','Entrada de mercadoria ou bem recebido p/ conserto ou reparo'
-'1916','DEVOLUÇÃO','Retorno de mercadoria ou bem remetido p/ conserto ou reparo'
-'1918','DEVOLUÇÃO','Devolução de mercadoria remetida em consignação mercantil ou industrial'
-'1920','VENDA','Entrada de vasilhame ou sacaria'
-'1921','DEVOLUÇÃO','Retorno de vasilhame ou sacaria'
-'1926','OUTROS','Lançamento efetuado a título de reclassificação de mercadoria decorrente de formação de kit ou de sua desagregação'
-'2201','DEVOLUÇÃO','Devolução de venda de produção do estabelecimento'
-'2203','DEVOLUÇÃO','Devolução de venda de produção do estabelecimento destinada à ZFM ou ALC'
-'2410','DEVOLUÇÃO','Devolução de venda de produção do estabelecimento, quando o produto sujeito a ST'
-'2554','DEVOLUÇÃO','Retorno de bem do ativo imobilizado remetido p/ uso fora do estabelecimento'
-'2603','OUTROS','Ressarcimento de ICMS retido por substituição tributária'
-'2661','DEVOLUÇÃO','Devolução de venda de combustível ou lubrificante destinados à comercialização'
-'2908','DEVOLUÇÃO','Entrada de bem por conta de contrato de comodato'
-'2909','DEVOLUÇÃO','Retorno de bem remetido por conta de contrato de comodato'
-'2910','BONIFICAÇÃO','Entrada de bonificação, doação ou brinde'
-'2915','DEVOLUÇÃO','Entrada de mercadoria ou bem recebido p/ conserto ou reparo'
-'2918','DEVOLUÇÃO','Devolução de mercadoria remetida em consignação mercantil ou industrial'
-'2920','VENDA','Entrada de vasilhame ou sacaria'
-'2921','VENDA','Retorno de vasilhame ou sacaria'
-'2949','VENDA','Outra entrada de mercadoria ou prestação de serviço não especificado'
-'5106','VENDA','Venda de mercadoria adquirida ou recebida de terceiros, que não deva por ele transitar '
-'5112','VENDA','Venda de mercadoria adquirida ou recebida de terceiros remetida anteriormente em consignação industrial'
-'5114','VENDA','Venda de mercadoria adquirida ou recebida de terceiros remetida anteriormente em consignação mercantil'
-'5116','VENDA','Venda de produção do estabelecimento originada de encomenda p/ entrega futura'
-'5118','VENDA','Venda de produção do estabelecimento entregue ao destinatário por conta e ordem do adquirente originário, em venda à ordem'
-'5119','VENDA','Venda de mercadoria adquirida ou recebida de terceiros entregue ao destinatário por conta e ordem do adquirente originário, em venda à ordem'
-'5122','VENDA','Venda de produção do estabelecimento remetida p/ industrialização, por conta e ordem do adquirente, sem transitar pelo estabelecimento do adquirente'
-'5123','VENDA','Venda de mercadoria adquirida ou recebida de terceiros remetida p/ industrialização, por conta e ordem do adquirente, sem transitar pelo estabelecimento do adquirente'
-'5124','VENDA','Industrialização efetuada p/ outra empresa'
-'5125','VENDA','Industrialização efetuada p/ outra empresa quando a mercadoria recebida p/ utilização no processo de industrialização não transitar pelo estabelecimento adquirente da mercadoria'
-'5153','OUTROS','Transferência de energia elétrica'
-'5155','TRANSFERÊNCIA','Transferência de produção do estabelecimento, que não deva por ele transitar'
-'5205','OUTROS','Anulação de valor relativo a aquisição de serviço de comunicação'
-'5210','DEVOLUÇÃO','Devolução de compra p/ utilização na prestação de serviço'
-'5251','OUTROS','Venda de energia elétrica p/ distribuição ou comercialização'
-'5252','OUTROS','Venda de energia elétrica p/ estabelecimento industrial'
-'5253','OUTROS','Venda de energia elétrica p/ estabelecimento comercial'
-'5255','OUTROS','Venda de energia elétrica p/ estabelecimento prestador de serviço de comunicação'
-'5258','OUTROS','Venda de energia elétrica a não contribuinte'
-'5408','TRANSFERÊNCIA','Transferência de produção do estabelecimento quando o produto sujeito a ST'
-'5412','DEVOLUÇÃO','Devolução de bem do ativo imobilizado, em operação com mercadoria sujeita a ST'
-'5413','DEVOLUÇÃO','Devolução de mercadoria destinada ao uso ou consumo, em operação com mercadoria sujeita a ST.'
-'5451','VENDA','Remessa de animal e de insumo p/ estabelecimento produtor'
-'5553','DEVOLUÇÃO','Devolução de compra de bem p/ o ativo imobilizado'
-'5554','OUTROS','Remessa de bem do ativo imobilizado p/ uso fora do estabelecimento'
-'5667','VENDA','Venda de combustível ou lubrificante a consumidor ou usuário final estabelecido em outra UF'
-'5901','VENDA','Remessa p/ industrialização por encomenda'
-'5902','DEVOLUÇÃO','Retorno de mercadoria utilizada na industrialização por encomenda'
-'5904','VENDA','Remessa p/ venda fora do estabelecimento'
-'5906','DEVOLUÇÃO','Retorno de mercadoria depositada em depósito fechado ou armazém geral'
-'5912','BONIFICAÇÃO','Remessa de mercadoria ou bem p/ demonstração'
-'5914','BONIFICAÇÃO','Remessa de mercadoria ou bem p/ exposição ou feira'
-'5916','DEVOLUÇÃO','Retorno de mercadoria ou bem recebido p/ conserto ou reparo'
-'5923','VENDA','Remessa de mercadoria por conta e ordem de terceiros, em venda à ordem ou em operações com armazém geral ou depósito fechado.'
-'5925','DEVOLUÇÃO','Retorno de mercadoria recebida p/ industrialização por conta e ordem do adquirente da mercadoria, quando aquela não transitar pelo estabelecimento do adquirente'
-'5933','VENDA','Prestação de serviço tributado pelo Imposto Sobre Serviços de Qualquer Natureza'
-'6103','VENDA','Venda de produção do estabelecimento, efetuada fora do estabelecimento'
-'6104','VENDA','Venda de mercadoria adquirida ou recebida de terceiros, efetuada fora do estabelecimento'
-'6105','VENDA','Venda de produção do estabelecimento que não deva por ele transitar'
-'6106','VENDA','Venda de mercadoria adquirida ou recebida de terceiros, que não deva por ele transitar'
-'6107','VENDA','Venda de produção do estabelecimento, destinada a não contribuinte'
-'6113','VENDA','Venda de produção do estabelecimento remetida anteriormente em consignação mercantil'
-'6114','VENDA','Venda de mercadoria adquirida ou recebida de terceiros remetida anteriormente em consignação mercantil'
-'6116','VENDA','Venda de produção do estabelecimento originada de encomenda p/ entrega futura'
-'6117','VENDA','Venda de mercadoria adquirida ou recebida de terceiros, originada de encomenda p/ entrega futura'
-'6120','VENDA','Venda de mercadoria adquirida ou recebida de terceiros entregue ao destinatário pelo vendedor remetente, em venda à ordem'
-'6122','VENDA','Venda de produção do estabelecimento remetida p/ industrialização, por conta e ordem do adquirente, sem transitar pelo estabelecimento do adquirente'
-'6123','VENDA','Venda de mercadoria adquirida ou recebida de terceiros remetida p/ industrialização, por conta e ordem do adquirente, sem transitar pelo estabelecimento do adquirente'
-'6252','OUTROS','Venda de energia elétrica p/ estabelecimento industrial'
-'6253','OUTROS','Venda de energia elétrica p/ estabelecimento comercial'
-'6402','VENDA','Venda de produção do estabelecimento de produto sujeito a ST, em operação entre contribuintes substitutos do mesmo produto'
-'6413','DEVOLUÇÃO','Devolução de mercadoria destinada ao uso ou consumo, em operação com mercadoria sujeita a ST'
-'6551','OUTROS','Venda de bem do ativo imobilizado'
-'6553','OUTROS','Devolução de compra de bem p/ o ativo imobilizado'
-'6554','OUTROS','Remessa de bem do ativo imobilizado p/ uso fora do estabelecimento'
-'6556','DEVOLUÇÃO','Devolução de compra de material de uso ou consumo'
-'6655','VENDA','Venda de combustível ou lubrificante, adquiridos ou recebidos de terceiros, destinados à comercialização'
-'6656','VENDA','Venda de combustível ou lubrificante, adquiridos ou recebidos de terceiros, destinados a consumidor ou usuário final'
-'6908','VENDA','Remessa de bem por conta de contrato de comodato'
-'6911','BONIFICAÇÃO','Remessa de amostra grátis'
-'6912','BONIFICAÇÃO','Remessa de mercadoria ou bem p/ demonstração'
-'6916','DEVOLUÇÃO','Retorno de mercadoria ou bem recebido p/ conserto ou reparo'
-'6917','VENDA','Remessa de mercadoria em consignação mercantil ou industrial'
-'6922','VENDA','Lançamento efetuado a título de simples faturamento decorrente de venda p/ entrega futura'
-'6923','VENDA','Remessa de mercadoria por conta e ordem de terceiros, em venda à ordem ou em operações com armazém geral ou depósito fechado'
-'6933','VENDA','Prestação de serviço tributado pelo Imposto Sobre Serviços de Qualquer Natureza '
+"6904","OUTROS","Remessa para venda fora do estabelecimento"
+"5949","OUTROS","Outra saída de mercadoria ou prestação de serviço não especificado"
+"1102","COMPRA","Compra p/ comercialização"
+"5929","ACOMPANHAMENTO","Lançamento efetuado em decorrência de emissão de documento fiscal relativo a operação ou prestação também registrada em equipamento Emissor de Cupom Fiscal - ECF"
+"5202","DEVOLUÇÃO","Devolução de compra p/ comercialização"
+"5209","DEVOLUÇÃO","Devolução de mercadoria recebida em transferência p/ comercialização"
+"5910","BONIFICAÇÃO","Remessa em bonificação, doação ou brinde"
+"6910","BONIFICAÇÃO","Remessa em bonificação, doação ou brinde"
+"1910","BONIFICAÇÃO","Entrada de bonificação, doação ou brinde"
+"5152","TRANSFERÊNCIA","Transferência de mercadoria adquirida ou recebida de terceiros"
+"5409","TRANSFERÊNCIA","Transferência de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita a ST"
+"5503","DEVOLUÇÃO","Devolução de mercadoria recebida com fim específico de exportação"
+"2411","DEVOLUÇÃO","Devolução de venda de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita a ST"
+"5605","TRANSFERÊNCIA","Transferência de saldo devedor do ICMS de outro estabelecimento da mesma empresa  "
+"5117","VENDA","Venda de mercadoria adquirida ou recebida de terceiros, originada de encomenda p/ entrega futura"
+"6411","DEVOLUÇÃO","Devolução de compra p/ comercialização em operação com mercadoria sujeita a ST"
+"5401","VENDA","Venda de produção do estabelecimento quando o produto esteja sujeito a ST"
+"1949","VENDA","Outra entrada de mercadoria ou prestação de serviço não especificada"
+"5120","VENDA","Venda de mercadoria adquirida ou recebida de terceiros entregue ao destinatário pelo vendedor remetente, em venda à ordem"
+"6101","VENDA","Venda de produção do estabelecimento"
+"5917","VENDA","Remessa de mercadoria em consignação mercantil ou industrial"
+"5551","VENDA","Venda de bem do ativo imobilizado"
+"5102","VENDA","Venda de mercadoria adquirida ou recebida de terceiros"
+"6404","VENDA","Venda de mercadoria sujeita a ST, cujo imposto já tenha sido retido anteriormente"
+"5505","VENDA","Remessa de mercadoria, adquirida ou recebida de terceiros, p/ formação de lote de exportação."
+"6920","VENDA","Remessa de vasilhame ou sacaria"
+"5602","TRANSFERÊNCIA","Transferência de saldo credor do ICMS, p/ outro estabelecimento da mesma empresa, destinado à compensação de saldo devedor do ICMS"
+"5405","VENDA","Venda de mercadoria, adquirida ou recebida de terceiros, sujeita a ST, na condição de contribuinte-substituído"
+"6949","VENDA","Outra saída de mercadoria ou prestação de serviço não especificado"
+"5655","VENDA","Venda de combustível ou lubrificante, adquiridos ou recebidos de terceiros, destinados à comercialização"
+"5918","DEVOLUÇÃO","Devolução de mercadoria recebida em consignação mercantil ou industrial"
+"6108","VENDA","Venda de mercadoria adquirida ou recebida de terceiros, destinada a não contribuinte"
+"2403","VENDA","Compra p/ comercialização em operação com mercadoria sujeita a ST"
+"5909","DEVOLUÇÃO","Retorno de bem recebido por conta de contrato de comodato"
+"5656","VENDA","Venda de combustível ou lubrificante, adquiridos ou recebidos de terceiros, destinados a consumidor ou usuário final"
+"6202","DEVOLUÇÃO","Devolução de compra p/ comercialização"
+"6929","VENDA","Lançamento efetuado em decorrência de emissão de documento fiscal relativo a operação ou prestação também registrada em equipamento Emissor de Cupom Fiscal - ECF"
+"6919","DEVOLUÇÃO","Devolução simbólica de mercadoria vendida ou utilizada em processo industrial, recebida anteriormente em consignação mercantil ou industrial"
+"5101","VENDA","Venda de produção do estabelecimento"
+"5913","DEVOLUÇÃO","Retorno de mercadoria ou bem recebido p/ demonstração"
+"5920","VENDA","Remessa de vasilhame ou sacaria"
+"6918","DEVOLUÇÃO","Devolução de mercadoria recebida em consignação mercantil ou industrial"
+"1411","DEVOLUÇÃO","Devolução de venda de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita a ST"
+"6603","OUTROS","Ressarcimento de ICMS retido por substituição tributária"
+"7102","VENDA","Venda de mercadoria adquirida ou recebida de terceiros"
+"5661","DEVOLUÇÃO","Devolução de compra de combustível ou lubrificante adquiridos p/ comercialização"
+"1406","VENDA","Compra de bem p/ o ativo imobilizado cuja mercadoria está sujeita a ST"
+"2202","DEVOLUÇÃO","Devolução de venda de mercadoria adquirida ou recebida de terceiros"
+"1909","DEVOLUÇÃO","Retorno de bem remetido por conta de contrato de comodato"
+"1551","VENDA","Compra de bem p/ o ativo imobilizado"
+"5104","VENDA","Venda de mercadoria adquirida ou recebida de terceiros, efetuada fora do estabelecimento"
+"5105","VENDA","Venda de produção do estabelecimento que não deva por ele transitar"
+"6401","VENDA","Venda de produção do estabelecimento quando o produto sujeito a ST"
+"1403","VENDA","Compra p/ comercialização em operação com mercadoria sujeita a ST"
+"5652","VENDA","Venda de combustível ou lubrificante, de produção do estabelecimento, destinados à comercialização"
+"5103","VENDA","Venda de produção do estabelecimento efetuada fora do estabelecimento"
+"5552","TRANSFERÊNCIA","Transferência de bem do ativo imobilizado"
+"7501","VENDA","Exportação de mercadorias recebidas com fim específico de exportação"
+"5911","BONIFICAÇÃO","Remessa de amostra grátis"
+"2102","VENDA","Compra p/ comercialização"
+"5402","VENDA","Venda de produção do estabelecimento de produto sujeito a ST, em operação entre contribuintes substitutos do mesmo produto"
+"5908","DEVOLUÇÃO","Remessa de bem por conta de contrato de comodato"
+"5919","DEVOLUÇÃO","Devolução simbólica de mercadoria vendida ou utilizada em processo industrial, recebida anteriormente em consignação mercantil ou industrial"
+"5504","VENDA","Remessa de mercadoria p/ formação de lote de exportação, de produto industrializado ou produzido pelo próprio estabelecimento."
+"5927","PERDA","Lançamento efetuado a título de baixa de estoque decorrente de perda, roubo ou deterioração"
+"6152","TRANSFERÊNCIA","Transferência de mercadoria adquirida ou recebida de terceiros"
+"5411","DEVOLUÇÃO","Devolução de compra p/ comercialização em operação com mercadoria sujeita a ST"
+"5922","VENDA","Lançamento efetuado a título de simples faturamento decorrente de venda p/ entrega futura"
+"5905","VENDA","Remessa p/ depósito fechado ou armazém geral"
+"5556","DEVOLUÇÃO","Devolução de compra de material de uso ou consumo"
+"5502","VENDA","Remessa de mercadoria adquirida ou recebida de terceiros, com fim específico de exportação"
+"6915","DEVOLUÇÃO","Remessa de mercadoria ou bem p/ conserto ou reparo"
+"5915","DEVOLUÇÃO","Remessa de mercadoria ou bem p/ conserto ou reparo"
+"5115","VENDA","Venda de mercadoria adquirida ou recebida de terceiros, recebida anteriormente em consignação mercantil"
+"5557","TRANSFERÊNCIA","Transferência de material de uso ou consumo"
+"6403","VENDA","Venda de mercadoria adquirida ou recebida de terceiros em operação com mercadoria sujeita a ST, na condição de contribuinte substituto"
+"5403","VENDA","Venda de mercadoria, adquirida ou recebida de terceiros, sujeita a ST, na condição de contribuinte-substituto"
+"1409","TRANSFERÊNCIA","Transferência p/ comercialização em operação com mercadoria sujeita a ST"
+"6102","VENDA","Venda de mercadoria adquirida ou recebida de terceiros"
+"1202","DEVOLUÇÃO","Devolução de venda de mercadoria adquirida ou recebida de terceiros"
+"5450","VENDA","Sistemas de integração"
+"5100","VENDA","Vendas de produção própria ou de terceiros"
+"5150","TRANSFERÊNCIA","Transferências de produção própria ou de terceiros"
+"5151","TRANSFERÊNCIA","Transferência de produção do estabelecimento"
+"1101","VENDA","Compra p/ industrialização ou produção rural"
+"1201","DEVOLUÇÃO","Devolução de venda de produção do estabelecimento "
+"1410","DEVOLUÇÃO","Devolução de venda de mercadoria, de produção do estabelecimento, sujeita a ST"
+"1414","DEVOLUÇÃO","Retorno de mercadoria de produção do estabelecimento, remetida p/ venda fora do estabelecimento, sujeita a ST"
+"1415","DEVOLUÇÃO","Retorno de mercadoria adquirida ou recebida de terceiros, remetida p/ venda fora do estabelecimento em operação com mercadoria sujeita a ST"
+"1554","DEVOLUÇÃO","Retorno de bem do ativo imobilizado remetido p/ uso fora do estabelecimento"
+"1652","VENDA","Compra de combustível ou lubrificante p/ comercialização"
+"1661","DEVOLUÇÃO","Devolução de venda de combustível ou lubrificante destinados à comercialização"
+"1662","DEVOLUÇÃO","Devolução de venda de combustível ou lubrificante destinados a consumidor ou usuário final"
+"1901","VENDA","Entrada p/ industrialização por encomenda"
+"1904","DEVOLUÇÃO","Retorno de remessa p/ venda fora do estabelecimento"
+"1908","DEVOLUÇÃO","Entrada de bem por conta de contrato de comodato"
+"1915","DEVOLUÇÃO","Entrada de mercadoria ou bem recebido p/ conserto ou reparo"
+"1916","DEVOLUÇÃO","Retorno de mercadoria ou bem remetido p/ conserto ou reparo"
+"1918","DEVOLUÇÃO","Devolução de mercadoria remetida em consignação mercantil ou industrial"
+"1920","VENDA","Entrada de vasilhame ou sacaria"
+"1921","DEVOLUÇÃO","Retorno de vasilhame ou sacaria"
+"1926","OUTROS","Lançamento efetuado a título de reclassificação de mercadoria decorrente de formação de kit ou de sua desagregação"
+"2201","DEVOLUÇÃO","Devolução de venda de produção do estabelecimento"
+"2203","DEVOLUÇÃO","Devolução de venda de produção do estabelecimento destinada à ZFM ou ALC"
+"2410","DEVOLUÇÃO","Devolução de venda de produção do estabelecimento, quando o produto sujeito a ST"
+"2554","DEVOLUÇÃO","Retorno de bem do ativo imobilizado remetido p/ uso fora do estabelecimento"
+"2603","OUTROS","Ressarcimento de ICMS retido por substituição tributária"
+"2661","DEVOLUÇÃO","Devolução de venda de combustível ou lubrificante destinados à comercialização"
+"2908","DEVOLUÇÃO","Entrada de bem por conta de contrato de comodato"
+"2909","DEVOLUÇÃO","Retorno de bem remetido por conta de contrato de comodato"
+"2910","BONIFICAÇÃO","Entrada de bonificação, doação ou brinde"
+"2915","DEVOLUÇÃO","Entrada de mercadoria ou bem recebido p/ conserto ou reparo"
+"2918","DEVOLUÇÃO","Devolução de mercadoria remetida em consignação mercantil ou industrial"
+"2920","VENDA","Entrada de vasilhame ou sacaria"
+"2921","VENDA","Retorno de vasilhame ou sacaria"
+"2949","VENDA","Outra entrada de mercadoria ou prestação de serviço não especificado"
+"5106","VENDA","Venda de mercadoria adquirida ou recebida de terceiros, que não deva por ele transitar "
+"5112","VENDA","Venda de mercadoria adquirida ou recebida de terceiros remetida anteriormente em consignação industrial"
+"5114","VENDA","Venda de mercadoria adquirida ou recebida de terceiros remetida anteriormente em consignação mercantil"
+"5116","VENDA","Venda de produção do estabelecimento originada de encomenda p/ entrega futura"
+"5118","VENDA","Venda de produção do estabelecimento entregue ao destinatário por conta e ordem do adquirente originário, em venda à ordem"
+"5119","VENDA","Venda de mercadoria adquirida ou recebida de terceiros entregue ao destinatário por conta e ordem do adquirente originário, em venda à ordem"
+"5122","VENDA","Venda de produção do estabelecimento remetida p/ industrialização, por conta e ordem do adquirente, sem transitar pelo estabelecimento do adquirente"
+"5123","VENDA","Venda de mercadoria adquirida ou recebida de terceiros remetida p/ industrialização, por conta e ordem do adquirente, sem transitar pelo estabelecimento do adquirente"
+"5124","VENDA","Industrialização efetuada p/ outra empresa"
+"5125","VENDA","Industrialização efetuada p/ outra empresa quando a mercadoria recebida p/ utilização no processo de industrialização não transitar pelo estabelecimento adquirente da mercadoria"
+"5153","OUTROS","Transferência de energia elétrica"
+"5155","TRANSFERÊNCIA","Transferência de produção do estabelecimento, que não deva por ele transitar"
+"5205","OUTROS","Anulação de valor relativo a aquisição de serviço de comunicação"
+"5210","DEVOLUÇÃO","Devolução de compra p/ utilização na prestação de serviço"
+"5251","OUTROS","Venda de energia elétrica p/ distribuição ou comercialização"
+"5252","OUTROS","Venda de energia elétrica p/ estabelecimento industrial"
+"5253","OUTROS","Venda de energia elétrica p/ estabelecimento comercial"
+"5255","OUTROS","Venda de energia elétrica p/ estabelecimento prestador de serviço de comunicação"
+"5258","OUTROS","Venda de energia elétrica a não contribuinte"
+"5408","TRANSFERÊNCIA","Transferência de produção do estabelecimento quando o produto sujeito a ST"
+"5412","DEVOLUÇÃO","Devolução de bem do ativo imobilizado, em operação com mercadoria sujeita a ST"
+"5413","DEVOLUÇÃO","Devolução de mercadoria destinada ao uso ou consumo, em operação com mercadoria sujeita a ST."
+"5451","VENDA","Remessa de animal e de insumo p/ estabelecimento produtor"
+"5553","DEVOLUÇÃO","Devolução de compra de bem p/ o ativo imobilizado"
+"5554","OUTROS","Remessa de bem do ativo imobilizado p/ uso fora do estabelecimento"
+"5667","VENDA","Venda de combustível ou lubrificante a consumidor ou usuário final estabelecido em outra UF"
+"5901","VENDA","Remessa p/ industrialização por encomenda"
+"5902","DEVOLUÇÃO","Retorno de mercadoria utilizada na industrialização por encomenda"
+"5904","VENDA","Remessa p/ venda fora do estabelecimento"
+"5906","DEVOLUÇÃO","Retorno de mercadoria depositada em depósito fechado ou armazém geral"
+"5912","BONIFICAÇÃO","Remessa de mercadoria ou bem p/ demonstração"
+"5914","BONIFICAÇÃO","Remessa de mercadoria ou bem p/ exposição ou feira"
+"5916","DEVOLUÇÃO","Retorno de mercadoria ou bem recebido p/ conserto ou reparo"
+"5923","VENDA","Remessa de mercadoria por conta e ordem de terceiros, em venda à ordem ou em operações com armazém geral ou depósito fechado."
+"5925","DEVOLUÇÃO","Retorno de mercadoria recebida p/ industrialização por conta e ordem do adquirente da mercadoria, quando aquela não transitar pelo estabelecimento do adquirente"
+"5933","VENDA","Prestação de serviço tributado pelo Imposto Sobre Serviços de Qualquer Natureza"
+"6103","VENDA","Venda de produção do estabelecimento, efetuada fora do estabelecimento"
+"6104","VENDA","Venda de mercadoria adquirida ou recebida de terceiros, efetuada fora do estabelecimento"
+"6105","VENDA","Venda de produção do estabelecimento que não deva por ele transitar"
+"6106","VENDA","Venda de mercadoria adquirida ou recebida de terceiros, que não deva por ele transitar"
+"6107","VENDA","Venda de produção do estabelecimento, destinada a não contribuinte"
+"6113","VENDA","Venda de produção do estabelecimento remetida anteriormente em consignação mercantil"
+"6114","VENDA","Venda de mercadoria adquirida ou recebida de terceiros remetida anteriormente em consignação mercantil"
+"6116","VENDA","Venda de produção do estabelecimento originada de encomenda p/ entrega futura"
+"6117","VENDA","Venda de mercadoria adquirida ou recebida de terceiros, originada de encomenda p/ entrega futura"
+"6120","VENDA","Venda de mercadoria adquirida ou recebida de terceiros entregue ao destinatário pelo vendedor remetente, em venda à ordem"
+"6122","VENDA","Venda de produção do estabelecimento remetida p/ industrialização, por conta e ordem do adquirente, sem transitar pelo estabelecimento do adquirente"
+"6123","VENDA","Venda de mercadoria adquirida ou recebida de terceiros remetida p/ industrialização, por conta e ordem do adquirente, sem transitar pelo estabelecimento do adquirente"
+"6252","OUTROS","Venda de energia elétrica p/ estabelecimento industrial"
+"6253","OUTROS","Venda de energia elétrica p/ estabelecimento comercial"
+"6402","VENDA","Venda de produção do estabelecimento de produto sujeito a ST, em operação entre contribuintes substitutos do mesmo produto"
+"6413","DEVOLUÇÃO","Devolução de mercadoria destinada ao uso ou consumo, em operação com mercadoria sujeita a ST"
+"6551","OUTROS","Venda de bem do ativo imobilizado"
+"6553","OUTROS","Devolução de compra de bem p/ o ativo imobilizado"
+"6554","OUTROS","Remessa de bem do ativo imobilizado p/ uso fora do estabelecimento"
+"6556","DEVOLUÇÃO","Devolução de compra de material de uso ou consumo"
+"6655","VENDA","Venda de combustível ou lubrificante, adquiridos ou recebidos de terceiros, destinados à comercialização"
+"6656","VENDA","Venda de combustível ou lubrificante, adquiridos ou recebidos de terceiros, destinados a consumidor ou usuário final"
+"6908","VENDA","Remessa de bem por conta de contrato de comodato"
+"6911","BONIFICAÇÃO","Remessa de amostra grátis"
+"6912","BONIFICAÇÃO","Remessa de mercadoria ou bem p/ demonstração"
+"6916","DEVOLUÇÃO","Retorno de mercadoria ou bem recebido p/ conserto ou reparo"
+"6917","VENDA","Remessa de mercadoria em consignação mercantil ou industrial"
+"6922","VENDA","Lançamento efetuado a título de simples faturamento decorrente de venda p/ entrega futura"
+"6923","VENDA","Remessa de mercadoria por conta e ordem de terceiros, em venda à ordem ou em operações com armazém geral ou depósito fechado"
+"6933","VENDA","Prestação de serviço tributado pelo Imposto Sobre Serviços de Qualquer Natureza "
