@@ -61,3 +61,14 @@ on-run-end:
   - 'DROP TABLE IF EXISTS public.temp_segmentos'
   - 'DROP TABLE IF EXISTS public.temp_subcat'
   - 'DROP TABLE IF EXISTS public.temp_venda_media_diaria_u30d'
+
+
+seeds:
+  your_package_name:
+    enabled: true
+    schema: public
+    # This configures data/country_codes.csv
+    dl_cadastro_calendario:
+    dl_data_limite:
+    dl_datalake_cadastro_cfop:
+    gcat_papel_pesos_importancia:
