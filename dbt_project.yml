@@ -69,9 +69,7 @@ seeds:
     schema: public
     # This configures data/country_codes.csv
     dl_cadastro_calendario:
-      schema: "{{var('table_name')}}"
-      vars:
-        table_name: 'pub'
+      schema: "pub"
     dl_data_limite:
     dl_datalake_cadastro_cfop:
     gcat_papel_pesos_importancia:
