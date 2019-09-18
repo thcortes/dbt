@@ -1,4 +1,4 @@
-{{ config(alias='nEWtABLE', schema='dev') }}
+{{ config(alias={{var('table_name')}}, schema='dev') }}
 
 
 SELECT
@@ -61,4 +61,4 @@ FROM
     LEFT JOIN {{ref('temp_moda')}} H ON A.Cnpj_loja = H.Cnpj_loja
     and A.sku = H.sku
 WHERE 
-    A.sku NOT IN ("{{var('table_name')}}")
+    A.sku NOT LIKE "{{var('table_name')}}"
