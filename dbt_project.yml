@@ -38,6 +38,8 @@ models:
         base:
             materialized: table
             #materialized: ephemeral           
+      carga_dw:
+        materialized: table 
         
 
 on-run-end:
@@ -63,13 +65,13 @@ on-run-end:
   - 'DROP TABLE IF EXISTS public.temp_venda_media_diaria_u30d'
 
 
-seeds:
-  yandeh:
-    enabled: true
-    schema: public
-    # This configures data/country_codes.csv
-    dl_cadastro_calendario:
-      schema: "pub"
-    dl_data_limite:
-    dl_datalake_cadastro_cfop:
-    gcat_papel_pesos_importancia:
+#seeds:
+#  yandeh:
+#    enabled: true
+#    schema: public
+#    # This configures data/country_codes.csv
+#    dl_cadastro_calendario:
+#      schema: "pub"
+#    dl_data_limite:
+#    dl_datalake_cadastro_cfop:
+#    gcat_papel_pesos_importancia:
