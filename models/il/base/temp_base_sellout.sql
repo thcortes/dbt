@@ -20,7 +20,12 @@ FROM
 WHERE
     TRUE
     AND (vpld.quantidade_sellout :: numeric(18, 2)) >= 0.01
-    AND vpld.valor_sellout > 0
+    -- [FARMA]: Eliminando vendas abaixo de R$10,00 para o B2C
+    {% if target.name = 'farma_analiseX' %}
+    	AND vpld.valor_sellout >= 10
+    {%- else -%}
+    	AND vpld.valor_sellout > 0
+    {% endif %}
     AND vpld.quantidade_sellout > 0
     AND vpld.cnpj_loja IN ('04028538000165','18130858000136','24136358000104','28695623000145','23419280000253','18300489000182','25301413000137','30921369000106','10430266000128',
 '00219359000154','29612698000188','11508142000180','14667450000147','01409086000173','13800124000101','16714499000139','30618719000151','05892738000124','03516892000176','19317950000172',
