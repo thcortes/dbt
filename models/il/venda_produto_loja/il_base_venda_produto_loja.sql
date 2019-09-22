@@ -1,5 +1,3 @@
--- config(alias="{{var('table_name')}}-table", schema="{{var('table_name')}}") }}
-
 
 SELECT
     A.cnpj_loja,
@@ -60,5 +58,3 @@ FROM
     AND A.segmentos = G.segmentos
     LEFT JOIN {{ref('temp_moda')}} H ON A.Cnpj_loja = H.Cnpj_loja
     and A.sku = H.sku
-WHERE 
-    A.sku NOT LIKE 'table_name'
