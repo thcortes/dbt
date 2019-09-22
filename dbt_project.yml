@@ -42,6 +42,8 @@ models:
       carga_dw:
         enabled: true
         materialized: table 
+      vars:
+          schema: 'dev'
         
 
 on-run-end:
