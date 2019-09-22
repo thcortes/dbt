@@ -34,11 +34,13 @@ models:
   yandeh:
       # Applies to all files under models/example/
       il:
+        enabled: true
         materialized: table 
         base:
             materialized: table
             #materialized: ephemeral           
       carga_dw:
+        enabled: true
         materialized: table 
         
 
