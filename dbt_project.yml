@@ -34,7 +34,7 @@ models:
   yandeh:
       # Applies to all files under models/example/
       il:
-        enabled: false
+        enabled: true
         materialized: table 
         base:
             materialized: table
