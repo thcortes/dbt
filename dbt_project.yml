@@ -38,8 +38,8 @@ models:
         tags: "il"
         materialized: table 
         base:
-            materialized: table
-            #materialized: ephemeral           
+            #materialized: table
+            materialized: ephemeral           
       carga_dw:
         enabled: false
         materialized: table 
