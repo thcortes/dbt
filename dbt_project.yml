@@ -35,6 +35,7 @@ models:
       # Applies to all files under models/example/
       il:
         enabled: true
+        tags: "il"
         materialized: table 
         base:
             materialized: table
