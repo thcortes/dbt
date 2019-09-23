@@ -1,4 +1,4 @@
-{{ config(schema="{{var('schema')}}") }}
+{{ config(schema=target.name) }}
 
 SELECT
     A.cnpj_loja,

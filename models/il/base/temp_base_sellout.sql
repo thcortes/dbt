@@ -1,4 +1,4 @@
-{{ config(schema="{{var('schema')}}") }}
+
 SELECT
     vpld.cnpj_loja,
     vpld.sku_isnumeric as sku,

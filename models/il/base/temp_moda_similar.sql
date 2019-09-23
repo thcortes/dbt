@@ -1,4 +1,4 @@
-{{ config(schema="{{var('schema')}}") }}
+
 SELECT
         cnpj_loja,
         Id_similar,
