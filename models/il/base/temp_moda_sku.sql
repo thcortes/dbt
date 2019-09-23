@@ -1,3 +1,5 @@
+{{ config(schema="{{var('schema')}}") }}
+
 SELECT
     cnpj_loja,
     Sku,

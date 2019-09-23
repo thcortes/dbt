@@ -1,3 +1,4 @@
+{{ config(schema="{{var('schema')}}") }}
 SELECT
         A.cnpj_loja,
         A.segmentos,
