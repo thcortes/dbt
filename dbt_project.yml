@@ -37,6 +37,8 @@ models:
         enabled: true
         tags: "il"
         materialized: table 
+        venda_produto_loja:
+            tags: "il_venda"
         base:
             materialized: table
             tags: "il_base"
