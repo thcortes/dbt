@@ -11,7 +11,7 @@ SELECT
         A.preco_medio AS preco_medio_loja_linha,
 		A.Preco_minimo	AS preco_minimo_Loja_linha
     FROM
-       {{ref('temp_mediana_linha')}} A
+       {{ref(var('temp_mediana_linha'))}} A
     GROUP BY
         A.cnpj_loja,
         A.id_linha,

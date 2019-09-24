@@ -41,21 +41,21 @@ SELECT
     H.preco_moda_loja_similar,
     dateadd('hour',-3,getdate()) AS data_hora_ingestao_dw
 FROM
-    {{ref('temp_mediana_loja_sku')}} A
-    LEFT JOIN {{ref('temp_mediana_loja_linha')}} B ON A.Cnpj_loja = B.Cnpj_loja
+    {{ref(var('temp_mediana_loja_sku'))}} A
+    LEFT JOIN {{ref(var('temp_mediana_loja_linha'))}} B ON A.Cnpj_loja = B.Cnpj_loja
     and A.id_linha = B.id_linha
-    LEFT JOIN {{ref('temp_mediana_loja_similar')}} C ON A.Cnpj_loja = C.Cnpj_loja
+    LEFT JOIN {{ref(var('temp_mediana_loja_similar'))}} C ON A.Cnpj_loja = C.Cnpj_loja
     AND A.id_similar = C.id_similar
-    LEFT JOIN {{ref('temp_venda_media_diaria_u30d')}} D ON A.Cnpj_loja = D.Cnpj_loja
+    LEFT JOIN {{ref(var('temp_venda_media_diaria_u30d'))}} D ON A.Cnpj_loja = D.Cnpj_loja
     AND A.sku = d.sku
-    LEFT JOIN {{ref('temp_subcat')}} E ON A.Cnpj_loja = E.Cnpj_loja
+    LEFT JOIN {{ref(var('temp_subcat'))}} E ON A.Cnpj_loja = E.Cnpj_loja
     AND A.segmentos = E.segmentos
     AND A.categoria = E.categoria
     AND A.subcategoria = E.subcategoria
-    LEFT JOIN {{ref('temp_categoria')}} F ON A.Cnpj_loja = F.Cnpj_loja
+    LEFT JOIN {{ref(var('temp_categoria'))}} F ON A.Cnpj_loja = F.Cnpj_loja
     AND A.segmentos = F.segmentos
     AND A.categoria = F.categoria
-    LEFT JOIN {{ref('temp_segmentos')}} G ON A.Cnpj_loja = G.Cnpj_loja
+    LEFT JOIN {{ref(var('temp_segmentos'))}} G ON A.Cnpj_loja = G.Cnpj_loja
     AND A.segmentos = G.segmentos
-    LEFT JOIN {{ref('temp_moda')}} H ON A.Cnpj_loja = H.Cnpj_loja
+    LEFT JOIN {{ref(var('temp_moda'))}} {{ref('')}} H ON A.Cnpj_loja = H.Cnpj_loja
     and A.sku = H.sku

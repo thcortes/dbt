@@ -39,13 +39,33 @@ models:
         materialized: table 
         base:
             materialized: table
+            tags: "il_base"
             #materialized: ephemeral 
         vars:
           il_venda_produto_loja_dia_u90d: 'dev.il_venda_produto_loja_dia_u90d'
           dl_cadu_cadastro_produto: 'dev.dl_cadu_cadastro_produto'
           temp_il_id_similar_sku: 'dev.temp_il_id_similar_sku'
+          temp_base_sellout_linha: 'temp_base_sellout_linha'
+          temp_base_sellout_similar: 'temp_base_sellout_similar'
           temp_base_sellout: 'temp_base_sellout'
           temp_base_sellout2: 'temp_base_sellout2'
+          temp_categoria: 'temp_categoria'
+          temp_cont_mediana_linha: 'temp_cont_mediana_linha'
+          temp_cont_mediana_similar: 'temp_cont_mediana_similar'
+          temp_cont_mediana: 'temp_cont_mediana'
+          temp_mediana_linha: 'temp_mediana_linha'
+          temp_mediana_loja_linha: 'temp_mediana_loja_linha'
+          temp_mediana_loja_similar: 'temp_mediana_loja_similar'
+          temp_mediana_loja_sku: 'temp_mediana_loja_sku'
+          temp_mediana_similar: 'temp_mediana_similar'
+          temp_mediana: 'temp_mediana'
+          temp_moda_linha: 'temp_moda_linha'
+          temp_moda_similar: 'temp_moda_similar'
+          temp_moda_sku: 'temp_moda_sku'
+          temp_moda: 'temp_moda'
+          temp_segmentos: 'temp_segmentos'
+          temp_subcat: 'temp_subcat'
+          temp_venda_media_diaria_u30d: 'temp_venda_media_diaria_u30d'
           schema: 'dev'          
       carga_dw:
         enabled: false
