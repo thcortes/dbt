@@ -32,6 +32,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   yandeh:
+      vars:
+        temp_base_sellout: 'temp_base_sellout'
+        temp_base_sellout2: 'temp_base_sellout2'
       # Applies to all files under models/example/
       il:
         enabled: true
