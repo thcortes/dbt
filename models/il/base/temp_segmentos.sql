@@ -1,3 +1,4 @@
+{{ config(schema=target.name) }}
     
     SELECT
         A.cnpj_loja,
