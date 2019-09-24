@@ -44,7 +44,7 @@ models:
           il_venda_produto_loja_dia_u90d: 'dev.il_venda_produto_loja_dia_u90d'
           dl_cadu_cadastro_produto: 'dev.dl_cadu_cadastro_produto'
           temp_il_id_similar_sku: 'dev.temp_il_id_similar_sku'
-          temp_base_sellout: 'temp_base_sellout'
+          temp_base_sellout: '{{ref('temp_base_sellout')}}'
           schema: 'dev'          
       carga_dw:
         enabled: false
