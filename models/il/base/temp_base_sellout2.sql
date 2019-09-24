@@ -15,6 +15,6 @@ SELECT
     ((A.fat_item) /(A.Qtd_item)) :: numeric(18, 2) AS Preco,
     RANK() OVER ( PARTITION BY A.Sku, A.cnpj_loja ORDER BY Preco, A."Data" ) AS Ordem
 FROM
-    {{ref('temp_base_sellout')}} A
+    {{var('temp_base_sellout')}} A
 WHERE
     TRUE
