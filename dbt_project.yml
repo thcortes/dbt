@@ -31,11 +31,12 @@ clean-targets:         # directories to be removed by `dbt clean`
 # as views (the default). These settings can be overridden in the individual model files
 # using the `{{ config(...) }}` macro.
 models:
-  yandeh:
-      vars:
-        temp_base_sellout: 'temp_base_sellout'
-        temp_base_sellout2: 'temp_base_sellout2'
+  yandeh:      
       # Applies to all files under models/example/
+      il_v2:
+        vars:
+          temp_base_sellout: 'temp_base_sellout'
+          temp_base_sellout2: 'temp_base_sellout2'
       il:
         enabled: true
         tags: "il"
