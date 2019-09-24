@@ -1,4 +1,4 @@
-{{ config(schema=target.name) }}
+{{ config(schema=target.name, tags="il_v2") }}
 
 SELECT
     vpld.cnpj_loja,
@@ -24,9 +24,9 @@ WHERE
     AND (vpld.quantidade_sellout :: numeric(18, 2)) >= 0.01
     -- [FARMA]: Eliminando vendas abaixo de R$10,00 para o B2C
     {% if target.name in 'matcon'  %} 
-    	AND vpld.valor_sellout >= 10,
+    	AND vpld.valor_sellout >= 10
     {% else %}
-    	AND vpld.valor_sellout > 0,
+    	AND vpld.valor_sellout > 0
     {% endif %}
     AND vpld.quantidade_sellout > 0
     AND vpld.cnpj_loja IN ('04028538000165','18130858000136','24136358000104','28695623000145','23419280000253','18300489000182','25301413000137','30921369000106','10430266000128',

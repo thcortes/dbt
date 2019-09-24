@@ -1,4 +1,4 @@
-{{ config(schema=target.name) }}
+{{ config(schema=target.name, tags="il_v2") }}
 
 SELECT
     A.cnpj_loja,
