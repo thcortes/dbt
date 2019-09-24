@@ -8,7 +8,7 @@ SELECT
     max(A.Qtd_item) as Qtd_item,
     max(((A.fat_item) /(A.Qtd_item)) :: numeric(18, 2)) AS Preco
 FROM
-    {{ref(var('temp_base_sellout2'))}}  A
+    {{ref(var('temp_base_sellout'))}}  A
 WHERE
     TRUE
 GROUP BY 
