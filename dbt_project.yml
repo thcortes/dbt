@@ -39,7 +39,12 @@ models:
         materialized: table 
         base:
             materialized: table
-            #materialized: ephemeral           
+            #materialized: ephemeral 
+        vars:
+          il_venda_produto_loja_dia_u90d: 'dev.il_venda_produto_loja_dia_u90d'
+          dl_cadu_cadastro_produto: 'dev.dl_cadu_cadastro_produto'
+          temp_il_id_similar_sku: 'dev.temp_il_id_similar_sku'
+          schema: 'dev'          
       carga_dw:
         enabled: false
         materialized: table 

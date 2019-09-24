@@ -16,9 +16,9 @@ SELECT
     SUM(vpld.quantidade_sellout) :: numeric(18, 2) AS Qtd_item,
     vpld.data_hora_ingestao_dw
 FROM
-   	dev.il_venda_produto_loja_dia_u90d vpld	
-    LEFT JOIN dev.dl_cadu_cadastro_produto cps on vpld.sku = cps.sku and cps.sku <> ''
-    LEFT JOIN dev.temp_il_id_similar_sku ids ON  vpld.sku = ids.sku
+   	{{var('il_venda_produto_loja_dia_u90d')}} vpld	
+    LEFT JOIN {{var('dl_cadu_cadastro_produto')}} cps on vpld.sku = cps.sku and cps.sku <> ''
+    LEFT JOIN {{var('temp_il_id_similar_sku')}} ids ON  vpld.sku = ids.sku
 WHERE
     TRUE
     AND (vpld.quantidade_sellout :: numeric(18, 2)) >= 0.01
