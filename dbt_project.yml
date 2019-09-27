@@ -34,19 +34,20 @@ models:
   yandeh:      
       # Applies to all files under models/example/
       il_v2:
+        materialized: ephemeral
         vars:
           temp_base_sellout: 'temp_base_sellout'
           temp_base_sellout2: 'temp_base_sellout2'
       il:
         enabled: true
         tags: "il"
-        materialized: table 
+        materialized: ephemeral  
         venda_produto_loja:
             tags: "il_venda"
         base:
-            materialized: table
+            #materialized: table
             tags: "il_base"
-            #materialized: ephemeral 
+            materialized: ephemeral 
         vars:
           il_venda_produto_loja_dia_u90d: 'dev.il_venda_produto_loja_dia_u90d'
           dl_cadu_cadastro_produto: 'dev.dl_cadu_cadastro_produto'
